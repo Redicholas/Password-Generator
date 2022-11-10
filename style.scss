@@ -1,0 +1,51 @@
+$col-body: #d9ebee;
+$col-card: #73756d4c;
+$col-3: rgba(0, 0, 0, 0.4);
+$col-text: #000000;
+
+body {
+    margin-top: 10rem;
+    padding: 0;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    background: $col-body;
+}
+
+main {
+    width: fit-content;
+    margin: 0 auto;
+    background: $col-card;
+    color: $col-text;
+    border-radius: 1rem;
+    padding: 2rem;
+    border: 1px solid black;
+
+    input {
+        width: 50px;
+        height: 30px;
+        text-align: right;
+        font-weight: bold;
+        background: $col-3;
+        border: none;
+        border-radius: 1rem;
+        color: $col-text;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    button {
+        padding: 0.5rem 1.5rem;
+        border-radius: 1rem;
+        border: 1px solid black;
+        background: $col-body;
+        font-weight: bold;
+    }
+
+    .pw-field {
+        background: $col-3;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        width: fit-content;
+        padding: 0.5rem 2rem;
+    }
+}
