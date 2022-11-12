@@ -13,11 +13,9 @@ pwInputEl.defaultValue = 10;
 
 function generatePw() {
     pw1.textContent = ""
-    for (let i = 0; i < pwInputEl.value; i++) {
-        pw1.textContent += characters[Math.floor(Math.random()*characters.length + 1)]
-    }
     pw2.textContent = ""
     for (let i = 0; i < pwInputEl.value; i++) {
+        pw1.textContent += characters[Math.floor(Math.random()*characters.length + 1)]
         pw2.textContent += characters[Math.floor(Math.random()*characters.length + 1)]
     }
 }
